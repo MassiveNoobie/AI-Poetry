@@ -1,0 +1,2 @@
+# AI-Poetry
+Understanding the SEO algorithm has become a large hobby of mine. Now, I want to figure out the SEO Glue. And that requires a lot of data. In order to get there, I need to learn python, and a lot of other things. Since I have no clue what I'm doing, I think starting here will make sense... The goal is to build an AI poetry, and who the heck thinks thats cool? So far, I see it's just me, learning how to make random stuff, in order to generate data, for the future.
