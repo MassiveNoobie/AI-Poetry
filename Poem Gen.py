@@ -38,6 +38,3 @@ with open("output.txt", "w") as file:
 	file.write(message)
 output = open("output.txt","r")
 print(output.read())
-
-#yeah so here's the first iteration of the code, thanks to this smart person who already did a portion of what I wanted to learn. 
-#so, feel free to grab and go, will share link to his git soon
