@@ -1,4 +1,5 @@
-# AI-Poetry
+<h1>Learning about automated poem generation </h1>
+<p>Automated poem geneartion has a lot of cool flashy characteristics to it, that I explain scattered among my learning path in python. I will later come through and generate more of a tutorial base around how things work in python, to get here. Which will be ranked on Google, etc.</p>
 I want to make content that inspires people. 
 https://github.com/MassiveNoobie/AI-Poetry/blob/master/Poem%20Gen-v10.2.py
 #
