@@ -1,23 +1,23 @@
 # AI-Poetry
 I want to make content that inspires people. 
 https://github.com/MassiveNoobie/AI-Poetry/blob/master/Poem%20Gen-v10.2.py
-
-Why:
- Poem generation - I want to build poems to help inspire others with "whatever it is they need in that moment."
- Data generation - I need to make data because I'm a data nerd.
-
-Future ideas:
- AI poem generation - "can we make good poetry?"
- Understanding what "good" poetry is considered from a human perspective.
- Program the bot to follow the success data, (datascience) based on human and robot scores.
- Lastly, to apply sentiment score from several different sentiment scoring data sources.
- Release tutorials on python, rank it to the moon, as I learn through the code...
-
-Tips:
- occassionally this app hits the bottom of the poem and errors out.
- run it again (it will work). future error handling could include re-run based on error output! rad. <3 this stuff.
- Most hilarious output I've caught thus far, <a href="http://tylergarrett.com">Tyler Garrett</a> smiled, for worms.
- lol
+#
+#Why:
+# Poem generation - I want to build poems to help inspire others with "whatever it is they need in that moment."
+# Data generation - I need to make data because I'm a data nerd.
+#
+<h2>Future ideas:</h2>
+# AI poem generation - "can we make good poetry?"
+# Understanding what "good" poetry is considered from a human perspective.
+# Program the bot to follow the success data, (datascience) based on human and robot scores.
+# Lastly, to apply sentiment score from several different sentiment scoring data sources.
+# Release tutorials on python, rank it to the moon, as I learn through the code...
+#
+#Tips:
+# occassionally this app hits the bottom of the poem and errors out.
+# run it again (it will work). future error handling could include re-run based on error output! rad. <3 this stuff.
+# Most hilarious output I've caught thus far, <a href="http://tylergarrett.com">Tyler Garrett</a> smiled, for worms.
+# lol
 
 
 Understanding the SEO algorithm has become a large hobby of mine. Now, I want to figure out the SEO Glue. And that requires a lot of data. In order to get there, I need to learn python, and a lot of other things. Since I have no clue what I'm doing, I think starting here will make sense... The goal is to build an AI poetry, and who the heck thinks thats cool? So far, I see it's just me, learning how to make random stuff, in order to generate data, for the future.
