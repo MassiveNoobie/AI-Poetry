@@ -1,6 +1,11 @@
 <h1>Learning about automated poem generation using Python and a book text file</h1>
 I take a text file, and automate poetry around the text. The code is a large project that I explain randomly throughout the content. Automated poem generation, well you just need to loop it, and I'm learning that portion too! Still new at python but what's cool is, if you don't know python, you can learn a lot about the basics by checking out the stages of the code that I explain as I learn it. Or check out the final bit of code here: https://github.com/MassiveNoobie/AI-Poetry/blob/master/Poem%20Gen-v10.2.py
 
+<br>
+example:
+<br>
+https://medium.com/@itylergarrett.tag/made-the-man-smiled-at-the-lynx-3fde77ae301b
+https://datawebme.wordpress.com/2018/08/03/made-the-man-smiled-at-the-lynx/
 
 <p>Automated poem geneartion has a lot of cool flashy characteristics to it, that I explain scattered among my learning path in python. I will later come through and generate more of a tutorial base around how things work in python, to get here. Which will be ranked on Google, etc.</p>
 I want to make content that inspires people. 
