@@ -1,0 +1,87 @@
+#Poem Gen-v10.6+, push to wordpress. Offering the ability to automate posting to wordpress, these little randomized poems...
+#input expects a text file, keep it clean, not random symbols or odd content... book text and people will probably follow you...
+#when i noticed i got more followers posting random dumb stuff, and not blogs i work on for an entire weekend... I realized one thing..
+#maybe we all need to automate a bit of content.
+#end goal here was to learn python, previous examples of code in this library will explain every detail of the code below.
+#if you need help, ping me  @  tylergarrett.com
+text = open("buster3.1.txt", "r")
+text = ''.join([word for word in text]) \
+    .replace("\n\n", " ") \
+    .replace("\n", " ") \
+    .replace(" ", "[\n]") \
+    .split(' ')
+
+#open file for the first time, write to the file, close file.
+x = open("Out-v10.2.txt","w")
+x.writelines(text)
+x.close()
+
+#fix space in link
+text = open("Out-v10.2.txt", "r")
+text = 'wtf'.join([MEOW for MEOW in text]) \
+    .replace("[=]"," ") \
+    .replace("wtf","") \
+    .replace("[","") \
+    .replace("]","") \
+    .replace("(","") \
+    .replace(")","") \
+    .replace(".",".<br><br>") \
+    .split("yoMAMA")
+
+
+x = open("Buster-v10.2.txt","w")
+x.writelines(text)
+x.close()
+
+import random
+
+poems = open("Buster-v10.2.txt", "r")
+poems = ''.join([i for i in poems if not i.isdigit()]) \
+    .replace("\n", " ") \
+    .split(' ')
+
+
+index = 1
+chain = {}
+count = 250
+
+for word in poems[index:]:
+	key = poems[index - 1]
+	if key in chain:
+		chain[key].append(word)
+	else:
+		chain[key] = [word]
+	index += 1
+
+word1 = random.choice(list(chain.keys()))
+message = word1.capitalize()
+
+while len(message.split(' ')) < count:
+	word2 = random.choice(chain[word1])
+	word1 = word2
+	message += ' ' + word2
+
+
+#with open("A-1.txt", "w") as file:
+#	file.write(message)
+#output = open("A-1.txt","r")
+#print(output.read())
+
+from wordpress_xmlrpc import Client, WordPressPost
+from wordpress_xmlrpc.methods.posts import GetPosts, NewPost
+from wordpress_xmlrpc.methods.users import GetUserInfo
+
+#you will need to install above library, add YOURDOMAIN, and apply username/password, no setup required - this is native...
+wp = Client('https://YOURDOMAIN.wordpress.com/xmlrpc.php', 'username', 'password')
+
+#play with this portion... You can add to the title... I added to the footer to make it look a little less crappy on output.
+#still learning the randomization piece above but the rest is in notes in previous code in this git.
+post = WordPressPost()
+post.post_status = 'publish'
+post.title = message.split(' ',1)[0]
+post.content = message + '.<br><br>Something about how cool you are<br>Your Name<br>Your footer link to some website'
+post.terms_names = {
+  'post_tag': [message.split(' ',1)[0]],
+  'category': ['Short Story']
+}
+wp.call(NewPost(post))
