@@ -1,0 +1,26 @@
+/*
+Not the sexiest way to automate pushing posts but it's extremely effective.
+You can download pulover macro creator, or just download AHK, it's a simple code base to help you automate tons of cool stuff
+But for today, you just need to LOOP your wordpress push script or pg13, 10 times....
+You can do 200, 500, whatever you want. You will get that subdomain banned because people will report you if you do it too much...
+Or too fast...
+Or too obviouis that you're "SPAMMING"...
+But what is spam?
+Take that into consideration...
+I don't think poetry is spam. Ergo, I'm not spamming. I think digital artwork comes at the price of looking spammy...
+This is where you can "SLEEP" this macro... And make this loop as much as you want... How ever long you want it to sleep...
+Sleep, 1000 = 1 second. enjoy.
+Run, FILE LOCATION of BAT FILE... and, the directory, is the last portion of the code.
+Remove the comments to add a SLEEP... Add 1000... to do 1 second, like I just said, are you paying attention?
+Cool, remove the comments too. I push 10 at a time, clean up the title, and don't spam it much beyond that because i dont want to spam
+Rather, i want to make inspiring content... So looping this 1000000 times... Is a bit much, unless you sleep, a lot...
+Test it this way, and check your website to see if there are any new blogs.
+*/
+
+Loop, 10
+{
+    /*
+    Sleep, 0
+    */
+    Run, C:\x\x.bat, C:\x\
+}
