@@ -18,3 +18,7 @@ Disclaimer, going into abusing a system, you should know ahead of time there is 
 I hope you get banned and it's likely you will if you use this to SPAM.
 Have fun!
  # # # https://tylergarrett.com https://dev3lop.com
+
+Important note...
+Use appropriate tags.
+Attach appropriate categories and tags to your posts so people can find them in the WordPress.com Reader. But be careful not to use too many tags — less than 15 tags (or categories or both) is a good number. The more tags you use, the less likely your post will be featured in the Reader. Read more on tagging.
