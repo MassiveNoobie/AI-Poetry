@@ -15,8 +15,11 @@ https://github.com/MassiveNoobie/AI-Poetry/blob/master/basic-script-to-launch
 https://github.com/MassiveNoobie/AI-Poetry/blob/master/autohotkey-scheduler-looper
 
 Disclaimer, going into abusing a system, you should know ahead of time there is always a balance when posting
-I hope you get banned and it's likely you will if you use this to SPAM.
+I hope you don't get banned and it's likely you will if you use this to SPAM.
+Mix up usage of tags. Disclaimer on that below
 Have fun!
+
+Contact me here.
  # # # https://tylergarrett.com https://dev3lop.com
 
 Important note...
