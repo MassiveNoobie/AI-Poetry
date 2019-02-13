@@ -25,3 +25,6 @@ Contact me here.
 Important note...
 Use appropriate tags.
 Attach appropriate categories and tags to your posts so people can find them in the WordPress.com Reader. But be careful not to use too many tags — less than 15 tags (or categories or both) is a good number. The more tags you use, the less likely your post will be featured in the Reader. Read more on tagging.
+
+Dependencies can be grasped from the final script - https://github.com/MassiveNoobie/AI-Poetry/blob/master/poemgen-push-to-wordpress
+It's not much :)
