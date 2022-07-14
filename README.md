@@ -1,8 +1,12 @@
-<h1>Learning about automated poem generation using Python and a book text file, packaging that pile of random silly text, and placing it on a blog because you got nothing better to do with your time</h1>
+<h1>Learning about automated poem generation using Python and a book text file</h1>
+
+Question; Can i generate traffic with fake poems?
+Answer; Yes.
+
+Conclusion; if content is not unique, the backlinks do not last very long. Yes you can generate traffic, but it's a short lived "gain" and it's nearly always a fake robot parsing through because it's a related "tag" "h1" and P text that they latch on to because of the word usage. Dripping through wordpress has its own system of tags/robots, etc. this does generate SEO value but again, the content isn't good content and doesn't last long as far as BACKLINKS are concerned. (Later i transition to rss feed down similar pipeline found; https://github.com/MassiveNoobie/python-RSS-feeds, a much smarter/safer and internet friendly path)
+
 
 Check out this little auto blogging tool, built to push content from a text file, makes some what sensible sentences, and pushes it to wordpress.
-
-(Later i transition to rss feed down similar pipeline found; https://github.com/MassiveNoobie/python-RSS-feeds)
 
 I'm attaching a bit of content regarding how to loop it, if you don't want to learn how to build that process in python. Understandable. Maybe just want to stress test your wordpress website? Okay, sure.
 
