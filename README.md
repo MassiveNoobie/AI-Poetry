@@ -2,6 +2,8 @@
 
 Check out this little auto blogging tool, built to push content from a text file, makes some what sensible sentences, and pushes it to wordpress.
 
+(Later i transition to rss feed down similar pipeline found; https://github.com/MassiveNoobie/python-RSS-feeds)
+
 I'm attaching a bit of content regarding how to loop it, if you don't want to learn how to build that process in python. Understandable. Maybe just want to stress test your wordpress website? Okay, sure.
 
 Fast forward and skip the muck unless you want to learn python, read the old-read-me.
